@@ -19,7 +19,7 @@ setTimeout(()=>{
                                 setTimeout(()=>{
                                     document.getElementById("wishes").innerText=1;
                                     setTimeout(()=>{
-                                        document.getElementById("wishes").innerText="Happy Independent Year";
+                                        document.getElementById("wishes").innerText="Happy Independent Day";
                                     },1000)
                                 },1000);
                             },1000);
