@@ -1,0 +1,33 @@
+setTimeout(()=>{
+document.getElementById("wishes").innerText=10;
+setTimeout(()=>{
+    document.getElementById("wishes").innerText=9;
+    setTimeout(()=>{
+        document.getElementById("wishes").innerText=8;
+        setTimeout(()=>{
+            document.getElementById("wishes").innerText=7;
+            setTimeout(()=>{
+                document.getElementById("wishes").innerText=6;
+                setTimeout(()=>{
+                    document.getElementById("wishes").innerText=5;
+                    setTimeout(()=>{
+                        document.getElementById("wishes").innerText=4;
+                        setTimeout(()=>{
+                            document.getElementById("wishes").innerText=3;
+                            setTimeout(()=>{
+                                document.getElementById("wishes").innerText=2;
+                                setTimeout(()=>{
+                                    document.getElementById("wishes").innerText=1;
+                                    setTimeout(()=>{
+                                        document.getElementById("wishes").innerText="Happy Independent Year";
+                                    },1000)
+                                },1000);
+                            },1000);
+                        },1000);
+                    },1000);
+                },1000);
+            },1000);
+        },1000);
+    },1000);
+},1000);
+},1000);
